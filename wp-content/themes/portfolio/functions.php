@@ -123,12 +123,18 @@ function portfolio_scripts() {
 	wp_enqueue_style('portfolio-fontawesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 
 	wp_enqueue_script( 'portfolio-navigation', get_template_directory_uri() . '/js/navigation.js', array( 'jquery' ), '20151215', true );
+
+	wp_enqueue_script( 'portfolio-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+
+	//wp_enqueue_script("simoni-js", get_stylesheet_directory_uri() . "/js/jquery-3.1.0.min.js");
+	wp_enqueue_script("bootstrap-js", get_stylesheet_directory_uri() . "/js/bootstrap-3.3.7-dist/js/bootstrap.min.js");
+	//wp_enqueue_script("hightlight-js", get_stylesheet_directory_uri() . "/js/highlight.pack.js");
+	wp_enqueue_style("bootstrap", get_stylesheet_directory_uri() . "/js/bootstrap-3.3.7-dist/css/bootstrap.min.css");
+
 	wp_localize_script( 'portfolio-navigation', 'screenReaderText', array(
 		'expand'   => '<span class="screen-reader-text">' . __( 'expand child menu', 'portfolio' ) . '</span>',
 		'collapse' => '<span class="screen-reader-text">' . __( 'collapse child menu', 'portfolio' ) . '</span>',
 	) );
-
-	wp_enqueue_script( 'portfolio-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

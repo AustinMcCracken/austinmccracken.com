@@ -275,7 +275,7 @@ input,
 select,
 textarea {
 	color: #000;
-	font-family: 'Merriweather', serif;
+	font-family: 'Avenir';
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -559,7 +559,7 @@ a:active {
 	clear: both;
 	display: block;
 	width: 100%;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Avenir';
 	font-weight: 300;
 	font-size: 1em;
 }
@@ -729,7 +729,6 @@ a:active {
 .nav-menu {
 	padding: 1em;
 	margin-bottom: 3em;
-	background-color: #000;
 }
 
 .main-navigation.toggled ul {
@@ -754,11 +753,7 @@ a:active {
 	.main-navigation.toggled {
 		position: relative;
 		min-height: 3.5em;
-		max-width: 58em;
 		margin: 0 auto;
-		padding: 0 3.5em;
-		background-color: #000;
-		background-color: hsla(0, 0%, 0%, .7);
 	}
 
 	.nav-menu {
@@ -771,6 +766,8 @@ a:active {
 		max-height: none;
 		padding-left: 0;
 		text-align: center;
+		float: right;
+		padding-right: 15px;
 	}
 
 	.main-navigation.toggled ul {
@@ -855,7 +852,7 @@ a:active {
 
 .post-navigation {
 	padding: 2em 0;
-	font-family: "Fira Sans", sans-serif;
+	font-family: 'Avenir';
 	text-align: left;
 	overflow: hidden;
 }
@@ -1033,13 +1030,11 @@ a:active {
 .site-header {
 	background-color: #000;
 	background-size: cover;
+	background-position: center;
+	width:100%;
+	height: 100vh;
 }
 
-@media screen and (min-width: 50em) {
-	.site-header {
-		min-height: 4em;
-	}
-}
 
 .site-logo {
 	position: relative;
@@ -1065,7 +1060,7 @@ a:active {
 }
 
 .site-firstletter {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Avenir';
 	font-size: 1.5em;
 	font-weight: 700;
 	text-align: center;
@@ -1080,11 +1075,13 @@ a:active {
 
 .site-branding {
 	text-align: center;
+	margin:0 auto !important;
+
 }
 
 .site-title {
-	margin: 1.7em 1em 0;
-	font-family: 'Fira Sans', sans-serif;
+	margin: 6.0em 0em 0;
+	font-family: 'Avenir';
 	font-size: 2.4em;
 	font-weight: bold;
 	line-height: 1.3em;
@@ -1107,20 +1104,22 @@ a:active {
 .site-title a:hover,
 .site-title a:focus {
 	text-decoration: underline;
+	color: white;
 }
 
 .site-title::after {
 	display: block;
 	content: "";
 	margin: .7em auto 0;
-	width: 3em;
+	width: 4em;
 	border-bottom: solid 1px #fff;
 	opacity: .5;
 }
 
 .site-description {
 	margin: 2em 2em 3em;
-	font-size: 110%;
+	font-size: 125%;
+	font-weight: 100;
 	color: #fff;
 }
 
@@ -1172,6 +1171,93 @@ a:active {
 		margin: 1.8em auto;
 	}
 }
+
+#content{
+	padding-bottom: 250px;
+	padding: 0;
+	margin: 0;
+
+}
+
+.container-3-pictures{
+	width: 100vw;
+	background-color: black;
+	margin: 0;
+	padding-left: 30px;
+	padding-right: 45px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.section-3-pictures {
+	margin-top: 75px;
+}
+
+.section-3-pictures img {
+	box-shadow: 0 8px 15px 0 whitesmoke,0 0px 8px 0 whitesmoke;
+	transition: all .4s;
+}
+
+.section-3-pictures img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20%;
+}
+
+.section-3-pictures p {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 100;
+	color: white;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.section-3-pictures img:hover {
+	box-shadow: 0 27px 24px 0 whitesmoke,0 15px 40px 0 whitesmoke;
+}
+
+.img-circle{
+	width: 33.33%;
+}
+
+.img-circle{
+	width: 33.33%;
+	padding: 25px;
+}
+
+#bio {
+	float: right;
+}
+
+#vcu {
+	float: right;
+}
+
+.bio{
+	background-color: black;
+	width: 100vw !important;
+}
+
+.maxx{
+	background-color: whitesmoke;
+	width: 100vw !important;
+}
+
+.vcu{
+	background-color: black;
+	width: 100vw !important;
+}
+
+p {
+	font-family: Avenir;
+	color: white;
+	font-size: 20px;
+	font-size: 100;
+}
+
 
 /*--------------------------------------------------------------
 ## Posts and pages

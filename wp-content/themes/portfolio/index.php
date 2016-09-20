@@ -12,45 +12,48 @@
  * @package Portfolio
  */
 
-get_header(); ?>
+get_header();
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	?>
+	<div id="content" class="container homepage-content">
 
-		<?php
-		if ( have_posts() ) :
+		<div class="container bio">
+			<div class="col-md-12">
+				<div>
+					<a href="bio">
+						<img class="img-circle" id="bio" src="/wp-content/themes/portfolio/images/austin.jpg">
+					</a>
+				</div>
+				<p>Austin McCracken Bio</p>
+			</div>
+		</div>
 
-			if ( is_home() && ! is_front_page() ) : ?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
 
-			<?php
-			endif;
+		<div class="container maxx">
+			<div class="col-md-12">
+				<div>
+					<a href="software">
+						<img class="img-circle" id="maxx" src="/wp-content/themes/portfolio/images/MAXX2.jpg">
+					</a>
+				</div>
+				<p>Junior Software Developer Apprentice at Maxx Potential</p>
+			</div>
+		</div>
 
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
+		<div class="container vcu"
+			<div class="col-md-12">
+				<div>
+					<a href="compsci">
+						<img class="img-circle" id="vcu" src="/wp-content/themes/portfolio/images/vcubig.jpg">
+					</a>
+				</div>
+				<p>Computer Science at Virginia Commonwealth University</p>
+			</div>
+		</div>
 
-				/*
-				 * Include the Post-Format-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_format() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif; ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
+	</div>
 
 <?php
+
 get_sidebar();
 get_footer();
