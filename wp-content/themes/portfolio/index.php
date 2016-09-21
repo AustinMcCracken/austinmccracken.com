@@ -42,7 +42,7 @@ get_header();
 
 			<div class="col-md-6">
 				<a href="maxx">
-					<img class="img-circle" id="maxx" src="/wp-content/themes/portfolio/Images/maxx3.png">
+					<img class="img-circle" id="maxx" src="/wp-content/themes/portfolio/images/maxx3.png">
 				</a>
 			</div>
 
