@@ -32,7 +32,7 @@ get_header();
 
 			<div class="col-md-6">
 				<a href="bio">
-					<img class="img-circle" id="bio" src="/wp-content/themes/portfolio/Images/austin.jpg">
+					<img class="img-circle" id="bio" src="/wp-content/themes/portfolio/images/austin.jpg">
 				</a>
 
 			</div>
