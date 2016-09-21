@@ -44,7 +44,7 @@ get_header();
 			<div class="col-md-12">
 				<div>
 					<a href="compsci">
-						<img class="img-circle" id="vcu" src="/wp-content/themes/portfolio/Images/vcubig.jpg">
+						<img class="img-circle" id="vcu" src="/wp-content/themes/portfolio/Images/vcubig.JPG">
 					</a>
 				</div>
 				<p>Computer Science at Virginia Commonwealth University</p>
