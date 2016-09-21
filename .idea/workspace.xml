@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96c5f127-e015-410d-8958-7ac0463f282f" name="Default" comment="" />
+    <list default="true" id="96c5f127-e015-410d-8958-7ac0463f282f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/portfolio/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/portfolio/index.php" />
+    </list>
     <ignored path="austinmccracken.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,8 +27,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            <state relative-caret-position="525">
+              <caret line="46" column="92" selection-start-line="46" selection-start-column="92" selection-end-line="46" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -93,8 +95,8 @@
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/portfolio/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/portfolio/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/portfolio/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/portfolio/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/portfolio/index.php" />
       </list>
     </option>
   </component>
@@ -352,12 +354,12 @@
       <workItem from="1473966964765" duration="74000" />
       <workItem from="1473969942148" duration="161000" />
       <workItem from="1474321642136" duration="3525000" />
-      <workItem from="1474327985452" duration="13669000" />
+      <workItem from="1474327985452" duration="13944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19015000" />
+    <option name="totallyTimeSpent" value="19290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -501,8 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/portfolio/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        <state relative-caret-position="525">
+          <caret line="46" column="92" selection-start-line="46" selection-start-column="92" selection-end-line="46" selection-end-column="92" />
           <folding />
         </state>
       </provider>

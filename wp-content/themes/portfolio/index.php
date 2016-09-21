@@ -21,7 +21,7 @@ get_header();
 			<div class="col-md-12">
 				<div>
 					<a href="bio">
-						<img class="img-circle" id="bio" src="/wp-content/themes/portfolio/images/austin.jpg">
+						<img class="img-circle" id="bio" src="/wp-content/themes/portfolio/Images/austin.jpg">
 					</a>
 				</div>
 				<p>Austin McCracken Bio</p>
@@ -33,7 +33,7 @@ get_header();
 			<div class="col-md-12">
 				<div>
 					<a href="software">
-						<img class="img-circle" id="maxx" src="/wp-content/themes/portfolio/images/MAXX2.jpg">
+						<img class="img-circle" id="maxx" src="/wp-content/themes/portfolio/Images/MAXX2.jpg">
 					</a>
 				</div>
 				<p>Junior Software Developer Apprentice at Maxx Potential</p>
@@ -44,7 +44,7 @@ get_header();
 			<div class="col-md-12">
 				<div>
 					<a href="compsci">
-						<img class="img-circle" id="vcu" src="/wp-content/themes/portfolio/images/vcubig.jpg">
+						<img class="img-circle" id="vcu" src="/wp-content/themes/portfolio/Images/vcubig.jpg">
 					</a>
 				</div>
 				<p>Computer Science at Virginia Commonwealth University</p>
