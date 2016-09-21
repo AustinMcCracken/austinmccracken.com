@@ -33,7 +33,7 @@ get_header();
 			<div class="col-md-12">
 				<div>
 					<a href="software">
-						<img class="img-circle" id="maxx" src="/wp-content/themes/portfolio/Images/MAXX2.jpg">
+						<img class="img-circle" id="maxx" src="/wp-content/themes/portfolio/Images/maxx2.jpg">
 					</a>
 				</div>
 				<p>Junior Software Developer Apprentice at Maxx Potential</p>
