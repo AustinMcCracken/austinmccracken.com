@@ -41,41 +41,7 @@
 		</div>
 		<!-- .site-branding -->
 
-<!--		<nav class="navbar navbar-default navbar-fixed-top">-->
-<!---->
-<!--			<div class="container-fluid">-->
-<!--				-->
-<!--				<div class="navbar-header">-->
-<!--					<a class="navbar-brand" href="#">WebSiteName</a>-->
-<!--					<img id="nav-maxx" src="/wp-content/themes/portfolio/images/maxx3.png"/>-->
-<!--				</div>-->
-<!---->
-<!--				<ul class="nav navbar-nav">-->
-<!--					<li class="nav-item" id="nav-button">-->
-<!--						<a href="/">-->
-<!--							<span class="home-span">Home</span>-->
-<!--						</a>-->
-<!--					</li>-->
-<!--					<li class="nav-item" id="nav-button">-->
-<!--						<a href="/">-->
-<!--							<span>Projects</span>-->
-<!--						</a>-->
-<!--					</li>-->
-<!--					<li class="nav-item" id="nav-button">-->
-<!--						<a href="/">-->
-<!--							<span>Computer Science</span>-->
-<!--						</a>-->
-<!--					</li>-->
-<!--					<li class="nav-item" id="nav-button">-->
-<!--						<a href="/">-->
-<!--							<span>About me</span>-->
-<!--						</a>-->
-<!--					</li>-->
-<!--				</ul>-->
-<!--			</div>-->
-<!--		</nav>-->
-
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar navbar-default navbar-fixed-top nav-desktop">
 			<div class="container-fluid">
 				<div class="navbar-header">
 
@@ -90,5 +56,5 @@
 				</ul>
 			</div>
 		</nav>
-
+		
 	</header><!-- #masthead -->

@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------
 # Header CSS
 --------------------------------------------------------------*/
+
 .navbar-fixed-top {
     background-color: rgba(127, 127, 127, 0.5);
 }
@@ -8,8 +9,8 @@
 .navbar-nav {
     float: right !important;
     border-left: 1px solid white;
-    padding-bottom: 23px;
-    padding-top: 20px;
+    padding-bottom: 8px;
+    padding-top: 5px;
     padding-left: 25px;
     padding-right: 10px;
     font-family: "Avenir";
@@ -18,7 +19,7 @@
 }
 
 .navbar-brand {
-    padding-top: 34px !important;
+    padding-top: 22px !important;
     font-size: 22px!important;
     font-family: "Avenir";
     font-weight: 100;
@@ -43,13 +44,13 @@
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active {
-    color: #67c6be;
+    color: white !important;
     text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
 }
 
 
 a:hover {
-    color: #67c6be !important;
+    color: white !important;
     text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
 }
 
@@ -59,7 +60,94 @@ a {
 }
 
 .logo {
-    width: 30%;
+    width: 20%;
     float: left !important;
     padding-bottom: 5px;
+}
+
+@media screen and (max-width: 780px) {
+    .navbar-fixed-top {
+        background-color: rgba(127, 127, 127, 0.5);
+    }
+
+    .navbar-nav {
+        float: right !important;
+        border-left: none;
+        padding-bottom: 0;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        font-family: "Avenir";
+        font-size: 3.5vw;
+        font-weight: 100;
+        display: flex;
+        position: relative;
+    }
+
+    .navbar-brand {
+        padding-top: 0 !important;
+        font-size: 0 !important;
+        font-family: "Avenir";
+        font-weight: 100;
+        margin-right: 0;
+        padding-left: 0;
+    }
+
+    .navbar-header {
+        border-right: none;
+        position: absolute;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+    }
+
+    .navbar-default .navbar-brand {
+        color: white;
+    }
+
+    .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+        color: white;
+    }
+
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active {
+        color: white !important;
+        text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+    }
+
+
+    a:hover {
+        color: white !important;
+        text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+    }
+
+    a {
+        border: none !important;
+        outline: none !important;
+    }
+
+    .logo {
+        width: 20%;
+        float: left !important;
+        padding-top: 10px;
+        margin-left: 10px;
+    }
+
+    .title-line {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+    .navbar-nav{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .navbar-nav{
+        font-size: 18px;
+    }
 }
