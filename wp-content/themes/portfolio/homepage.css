@@ -78,19 +78,19 @@
 .maxx {
     background-color: white;
     box-shadow: 3px 3px 7px 4px rgba(0, 0, 0, 0.17);
-    transition: box-shadow .7s;
+    transition: box-shadow .3s ease-in-out;
 }
 
 .bio {
     background-color: white;
     box-shadow: 3px 3px 7px 4px rgba(0, 0, 0, 0.17);
-    transition: box-shadow .7s;
+    transition: box-shadow .3s ease-in-out;
 }
 
 .vcu {
     background-color: white;
     box-shadow: 3px 3px 7px 4px rgba(0, 0, 0, 0.17);
-    transition: box-shadow .7s;
+    transition: box-shadow .3s ease-in-out;
 }
 
 .maxx:hover {
