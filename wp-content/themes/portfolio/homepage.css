@@ -14,6 +14,7 @@
     display: flex;
     -webkit-box-align: center;
     align-items: center;
+    border-bottom: 3px solid white;
 }
 
 .homepage-text {
@@ -55,7 +56,7 @@
     font-family: Avenir;
     text-align: center;
     font-weight: 100;
-    color: black;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .img-thumbnail{
@@ -66,46 +67,52 @@
     display: flex;
     -webkit-box-align: center;
     align-items: center;
+    padding-top: 0px;
+    background-color: lightgray;
+    min-height: 550px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: lightgray;
-    min-height: 600px;
 
 }
 
 .maxx {
-    background-color: whitesmoke;
+    background-color: white;
     box-shadow: 3px 3px 7px 4px rgba(0, 0, 0, 0.17);
     transition: box-shadow .7s;
 }
 
 .bio {
-    background-color: whitesmoke;
+    background-color: white;
     box-shadow: 3px 3px 7px 4px rgba(0, 0, 0, 0.17);
     transition: box-shadow .7s;
 }
 
 .vcu {
-    background-color: whitesmoke;
+    background-color: white;
     box-shadow: 3px 3px 7px 4px rgba(0, 0, 0, 0.17);
     transition: box-shadow .7s;
 }
 
 .maxx:hover {
-    background-color: whitesmoke;
+    background-color: white;
     box-shadow: 4px 4px 7px 5px rgba(0, 0, 0, 0.55);
 }
 
 .bio:hover {
-    background-color: whitesmoke;
+    background-color: white;
     box-shadow: 4px 4px 7px 5px rgba(0, 0, 0, 0.55);
 }
 
 .vcu:hover {
-    background-color: whitesmoke;
+    background-color: white;
     box-shadow: 4px 4px 7px 5px rgba(0, 0, 0, 0.55);
 }
 
-
-
+.detail {
+    font-family: "Avenir";
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 15px;
+    text-align: center;
+}
 

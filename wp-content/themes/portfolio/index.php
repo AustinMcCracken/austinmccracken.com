@@ -40,11 +40,11 @@ get_header();
 				<div class="row homepage-content">
 					<div class="col-md-4">
 						<div class="container-fluid maxx">
-							<h1 class="content-title"><a href="maxx">Software Developer Apprentice</a></h1>
+							<h1 class="content-title"><a href="maxx">Projects</a></h1>
 							<a href="maxx">
 								<img class="img-thumbnail" id="maxx" src="/wp-content/themes/portfolio/images/maxx3.png">
 							</a>
-							<p class="info-text-right">Over the past year, I have worked as an Apprentice Software Developer
+							<p class="detail">Over the past year, I have worked as an Apprentice Software Developer
 								at MAXX Potential.  My umbrella of work has been very diverse and expands over several software
 								disciplines including Mobile App Development, Web Development, Quality Assurance, and Testing.
 							</p>
@@ -57,7 +57,7 @@ get_header();
 							<a href="bio">
 								<img class="img-thumbnail" id="bio" src="/wp-content/themes/portfolio/images/austin-prof2.png">
 							</a>
-							<p class="info-text-left">Welcome!  My name is Austin McCracken, I am a 23 year old software
+							<p class="detail">Welcome!  My name is Austin McCracken, I am a 23 year old software
 								developer apprentice from Richmond, Virginia who is currently studying Computer Science
 								at Virginia Commonwealth University.  I am extremely passionate about the
 								computer science field and my work.
@@ -67,11 +67,11 @@ get_header();
 
 					<div class="col-md-4">
 						<div class="container-fluid vcu">
-							<h1 class="content-title"><a href="vcu">Computer Science at VCU</a></h1>
+							<h1 class="content-title"><a href="vcu">Computer Science</a></h1>
 							<a href="vcu">
 								<img class="img-thumbnail" id="vcu" src="/wp-content/themes/portfolio/Images/vcubig.JPG">
 							</a>
-							<p class="info-text-left">I am currently studying Computer Science at Virginia Commonwealth
+							<p class="detail">I am currently studying Computer Science at Virginia Commonwealth
 								University.  The courses and projects that I have experienced throughout my undergraduate
 								career have been essential to attaining the Software Development knowledge that I have
 								today.
