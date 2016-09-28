@@ -1,10 +1,10 @@
 <?php
 /**
- * Portfolio functions and definitions.
+ * portfolio functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Portfolio
+ * @package portfolio
  */
 
 if ( ! function_exists( 'portfolio_setup' ) ) :
@@ -19,7 +19,7 @@ function portfolio_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on Portfolio, use a find and replace
+	 * If you're building a theme based on portfolio, use a find and replace
 	 * to change 'portfolio' to the name of your theme in all the template files.
 	 */
 	load_theme_textdomain( 'portfolio', get_template_directory() . '/languages' );
@@ -44,7 +44,7 @@ function portfolio_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary Menu', 'portfolio' ),
+		'primary' => esc_html__( 'Primary', 'portfolio' ),
 	) );
 
 	/*
@@ -57,18 +57,6 @@ function portfolio_setup() {
 		'comment-list',
 		'gallery',
 		'caption',
-	) );
-
-	/*
-	 * Enable support for Post Formats.
-	 * See https://developer.wordpress.org/themes/functionality/post-formats/
-	 */
-	add_theme_support( 'post-formats', array(
-		'aside',
-		'image',
-		'video',
-		'quote',
-		'link',
 	) );
 
 	// Set up the WordPress core custom background feature.
@@ -114,39 +102,26 @@ add_action( 'widgets_init', 'portfolio_widgets_init' );
  * Enqueue scripts and styles.
  */
 function portfolio_scripts() {
-	wp_enqueue_style( 'portfolio-style', get_stylesheet_uri() );
-        
-//	wp_enqueue_style('portfolio-google-fonts','https://fonts.googleapis.com/css?family=Lato:400,400italic|Merriweather:400,400italic,700');
 
-    wp_enqueue_style('portfolio-local-fonts', get_template_directory_uri() . '/Fonts/custom-fonts.css');
-
-	wp_enqueue_style('portfolio-fontawesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
-
-	wp_enqueue_script( 'portfolio-navigation', get_template_directory_uri() . '/js/navigation.js', array( 'jquery' ), '20151215', true );
+	wp_enqueue_script( 'portfolio-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'portfolio-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	//wp_enqueue_script("simoni-js", get_stylesheet_directory_uri() . "/js/jquery-3.1.0.min.js");
+
 	wp_enqueue_script("bootstrap-js", get_stylesheet_directory_uri() . "/js/bootstrap-3.3.7-dist/js/bootstrap.min.js");
+
 	//wp_enqueue_script("hightlight-js", get_stylesheet_directory_uri() . "/js/highlight.pack.js");
+
 	wp_enqueue_style("bootstrap", get_stylesheet_directory_uri() . "/js/bootstrap-3.3.7-dist/css/bootstrap.min.css");
 
-	wp_localize_script( 'portfolio-navigation', 'screenReaderText', array(
-		'expand'   => '<span class="screen-reader-text">' . __( 'expand child menu', 'portfolio' ) . '</span>',
-		'collapse' => '<span class="screen-reader-text">' . __( 'collapse child menu', 'portfolio' ) . '</span>',
-	) );
+	wp_enqueue_style( 'portfolio-style', get_stylesheet_uri() );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'portfolio_scripts' );
-
-function home_page_menu_args( $args ) {
-	$args['show_home'] = true;
-	return $args;
-}
-add_filter( 'wp_page_menu_args', 'home_page_menu_args' );
 
 /**
  * Implement the Custom Header feature.

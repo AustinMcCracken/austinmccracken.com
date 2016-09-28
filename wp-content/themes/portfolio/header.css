@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------
+# Header CSS
+--------------------------------------------------------------*/
+.navbar-fixed-top {
+    background-color: rgba(127, 127, 127, 0.5);
+}
+
+.navbar-nav {
+    float: right !important;
+    border-left: 1px solid white;
+    padding-bottom: 23px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 10px;
+    font-family: "Avenir";
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.navbar-brand {
+    padding-top: 34px !important;
+    font-size: 22px!important;
+    font-family: "Avenir";
+    font-weight: 100;
+    margin-right: -71px;
+    padding-left: 43px;
+}
+
+.navbar-header {
+    border-right: 1px solid white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active {
+    color: #67c6be;
+    text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+}
+
+
+a:hover {
+    color: #67c6be !important;
+    text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+}
+
+a {
+    border: none !important;
+    outline: none !important;
+}
+
+.logo {
+    width: 30%;
+    float: left !important;
+    padding-bottom: 5px;
+}

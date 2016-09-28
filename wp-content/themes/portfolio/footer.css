@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+    background-color: black;
+}
+
+#footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    max-height: 75px;
+}
+
+.legal{
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Avenir";
+    font-size: 14px;
+    font-weight: 100;
+}
