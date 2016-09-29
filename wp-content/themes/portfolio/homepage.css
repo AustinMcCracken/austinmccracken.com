@@ -65,11 +65,9 @@
 }
 
 .homepage-content {
-    padding-top: 0px;
     background-color: lightgray;
-    min-height: 550px;
-    margin-top: 20px;
     padding-bottom: 20px;
+    margin: 20px 30px 0px 30px;
 
 }
 
@@ -113,33 +111,33 @@
     background-color: white;
     box-shadow: 0px 9px 20px 10px rgba(0, 0, 0, 0.4);
 
-    transform:scale(1.08);
-    -ms-transform:scale(1.08); /* IE 9 */
-    -moz-transform:scale(1.08); /* Firefox */
-    -webkit-transform:scale(1.08); /* Safari and Chrome */
-    -o-transform:scale(1.08); /* Opera */
+    transform:scale(1.02);
+    -ms-transform:scale(1.02); /* IE 9 */
+    -moz-transform:scale(1.02); /* Firefox */
+    -webkit-transform:scale(1.02); /* Safari and Chrome */
+    -o-transform:scale(1.02); /* Opera */
 }
 
 .bio:hover {
     background-color: white;
     box-shadow: 0px 9px 20px 10px rgba(0, 0, 0, 0.4);
 
-    transform:scale(1.08);
-    -ms-transform:scale(1.08); /* IE 9 */
-    -moz-transform:scale(1.08); /* Firefox */
-    -webkit-transform:scale(1.08); /* Safari and Chrome */
-    -o-transform:scale(1.08); /* Opera */
+    transform:scale(1.02);
+    -ms-transform:scale(1.02); /* IE 9 */
+    -moz-transform:scale(1.02); /* Firefox */
+    -webkit-transform:scale(1.02); /* Safari and Chrome */
+    -o-transform:scale(1.02); /* Opera */
 }
 
 .vcu:hover {
     background-color: white;
     box-shadow: 0px 9px 20px 10px rgba(0, 0, 0, 0.4);
 
-    transform:scale(1.08);
-    -ms-transform:scale(1.08); /* IE 9 */
-    -moz-transform:scale(1.08); /* Firefox */
-    -webkit-transform:scale(1.08); /* Safari and Chrome */
-    -o-transform:scale(1.08); /* Opera */
+    transform:scale(1.02);
+    -ms-transform:scale(1.02); /* IE 9 */
+    -moz-transform:scale(1.02); /* Firefox */
+    -webkit-transform:scale(1.02); /* Safari and Chrome */
+    -o-transform:scale(1.02); /* Opera */
 }
 
 .detail {
@@ -167,8 +165,7 @@
 @media screen and (max-width: 992px) {
 
     .homepage-content {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
     }
 
     .maxx {
@@ -177,6 +174,14 @@
 
     .bio {
         margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+
+    .homepage-content {
+        margin: 17px 0px 0px 0px;
     }
 
 }

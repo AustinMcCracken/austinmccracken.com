@@ -28,7 +28,7 @@ get_header();
 			</div>
 		</div>
 
-		<div id="content" class="container homepage-content">
+		<div id="content" class="container-fluid homepage-content">
 			<div class="row homepage-content">
 				<div class="col-sm-12 col-md-4">
 					<div class="container-fluid maxx">
@@ -38,7 +38,7 @@ get_header();
 						</a>
 						<p class="detail">Over the past year, I have worked as an Apprentice Software Developer
 							at MAXX Potential.  My umbrella of work has been very diverse and expands over several software development
-							disciplines including Mobile App Development, Web Development, Quality Assurance, and Testing.
+							disciplines specializing in Mobile App Development and Web Development.
 						</p>
 					</div>
 				</div>
@@ -52,7 +52,7 @@ get_header();
 						<p class="detail">My name is Austin McCracken, I am a 23 year old software
 							developer apprentice from Richmond, Virginia who is currently studying Computer Science
 							at Virginia Commonwealth University.  I am extremely passionate about the
-							computer science field and my work as a developer.
+							computer science field and my work.
 						</p>
 					</div>
 				</div>
