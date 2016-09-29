@@ -32,7 +32,7 @@ get_header();
 			<div class="row homepage-content">
 				<div class="col-sm-12 col-md-4">
 					<div class="container-fluid maxx">
-						<h1 class="content-title"><span><a href="maxx">MAXX</a></span></h1>
+						<h1 class="content-title"><span><a href="maxx">Projects</a></span></h1>
 						<a href="maxx">
 							<img class="img-thumbnail" id="maxx" src="/wp-content/themes/portfolio/images/maxx3.png">
 						</a>
