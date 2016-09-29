@@ -37,7 +37,7 @@ get_header();
 							<img class="img-thumbnail" id="maxx" src="/wp-content/themes/portfolio/images/maxx3.png">
 						</a>
 						<p class="detail">Over the past year, I have worked as an Apprentice Software Developer
-							at MAXX Potential.  My umbrella of work has been very diverse and expands over several software
+							at MAXX Potential.  My umbrella of work has been very diverse and expands over several software development
 							disciplines including Mobile App Development, Web Development, Quality Assurance, and Testing.
 						</p>
 					</div>
@@ -47,12 +47,12 @@ get_header();
 					<div class="container-fluid bio">
 						<h1 class="content-title"><span><a href="bio">About Me</a></span></h1>
 						<a href="bio">
-							<img class="img-thumbnail" id="bio" src="/wp-content/themes/portfolio/images/austin-prof2.png">
+							<img class="img-thumbnail" id="bio" src="/wp-content/themes/portfolio/images/austin-prof3.png">
 						</a>
-						<p class="detail">Welcome!  My name is Austin McCracken, I am a 23 year old software
+						<p class="detail">My name is Austin McCracken, I am a 23 year old software
 							developer apprentice from Richmond, Virginia who is currently studying Computer Science
 							at Virginia Commonwealth University.  I am extremely passionate about the
-							computer science field and my work.
+							computer science field and my work as a developer.
 						</p>
 					</div>
 				</div>
